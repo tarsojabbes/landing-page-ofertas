@@ -162,7 +162,11 @@ img {
 }
 
 #mac {
-  height: 120px;
+  height: 110px;
+}
+
+.product-name {
+  padding-top: 15px;
 }
 
 .img-center {
