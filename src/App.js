@@ -1,4 +1,5 @@
 import React from 'react'
+import SegundaPagina from './SegundaPagina'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           </div>
         </div>
       </div>
+      <SegundaPagina />
     </>
   )
 }
