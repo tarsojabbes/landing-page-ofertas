@@ -1,5 +1,6 @@
 import React from 'react'
 import SegundaPagina from './SegundaPagina'
+import Footer from './Footer'
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
       <div style={{ backgroundColor: "#2F2F2F" }}>
         <SegundaPagina />
       </div>
+      <Footer />
     </>
   )
 }
