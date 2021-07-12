@@ -3,28 +3,36 @@ import React from 'react'
 export default function SegundaPagina() {
     return (
         <>
-            <div className="container">
-                <div className="row">
-                    <div className="col order-lg-2">
-                        <h1>CONFIRA ALGUMAS DAS NOSSAS ÚLTIMAS PROMOÇÕES</h1>
-                        <p>ESSAS E OUTRAS SOMENTE PARA OS NOSSOS ASSINANTES</p>
+            <div className="container main">
+                <div className="row text-align-right">
+                    <div className="col order-lg-2 text-align-right d-flex-col">
+                        <h1>CONFIRA ALGUMAS <br />DAS NOSSAS ÚLTIMAS PROMOÇÕES</h1>
+                        <p className="text-color-white" style={{ width: "100%" }}>ESSAS E OUTRAS SOMENTE PARA OS NOSSOS ASSINANTES</p>
                     </div>
-                    <div className="col order-lg-1">
+                    <div className="col order-lg-1 d-flex-col">
                         <div className="container">
                             <div className="row">
-                                <div className="col">
-                                    <p>Imagem 1</p>
+                                <div className="col col-card">
+                                    <div className="product-card">
+
+                                    </div>
                                 </div>
-                                <div className="col">
-                                    <p>Imagem 2</p>
+                                <div className="col col-card">
+                                    <div className="product-card">
+
+                                    </div>
                                 </div>
                             </div>
-                            <div className="row">
-                                <div className="col">
-                                    <p>Imagem 3</p>
+                            <div className="row" style={{ paddingTop: 30 }}>
+                                <div className="col col-card">
+                                    <div className="product-card">
+
+                                    </div>
                                 </div>
-                                <div className="col">
-                                    <p>Imagem 4</p>
+                                <div className="col col-card">
+                                    <div className="product-card">
+
+                                    </div>
                                 </div>
                             </div>
                         </div>

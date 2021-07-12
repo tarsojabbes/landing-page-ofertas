@@ -4,24 +4,30 @@ import SegundaPagina from './SegundaPagina'
 export default function App() {
   return (
     <>
-      <div className="container">
+      <div className="container main">
         <div className="row">
-          <div className="col">
+          <div className="col d-flex-col">
             <h1>QUER UM NEWSLETTER CHEIO DE OFERTAS?</h1>
             <p>🔥 ASSINE O NOSSO NEWSLETTER PARA RECEBER EM PRIMEIRA MÃO NO SEU EMAIL AS MELHORES PROMOÇÕES DA NOSSA LOJA</p>
           </div>
-          <div className="col">
+          <div className="col d-flex-col">
             <div className="card">
-              <label>SEU NOME COMPLETO</label>
-              <input type="text" required />
-              <label>SEU EMAIL</label>
-              <input type="email" required />
+              <label className="text-color-white">SEU NOME COMPLETO</label>
+              <input type="text" className="input-text" required />
+              <label className="text-color-white">SEU EMAIL</label>
+              <input type="email" className="input-text" required />
+              <div className="form-check form-switch">
+                <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                <label className="form-check-label text-color-white" for="flexSwitchCheckDefault">Eu aceito os <a href="/"> Termos e Condições de Serviço</a></label>
+              </div>
               <button>CADASTRAR</button>
             </div>
           </div>
         </div>
       </div>
-      <SegundaPagina />
+      <div style={{ backgroundColor: "#2F2F2F" }}>
+        <SegundaPagina />
+      </div>
     </>
   )
 }

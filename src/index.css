@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,129 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 77px;
+  color: #FF2020;
+}
+
+p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.text-color-white {
+  color: #FFFFFF
+}
+.text-align-right {
+  text-align: right;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 432px;
+  height: 567px;
+  background: #2F2F2F;
+  border-radius: 8px;
+  padding: 150px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.input-text {
+  color: #FFFFFF;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid white;
+  width: 100%;
+}
+
+.input-check {
+  display: inline-flex;
+  padding-right: 35px;
+}
+
+a {
+  padding-left: 5px;
+  color: white;
+}
+a:hover {
+  color: #FF2020;
+}
+
+button {
+  width: 167px;
+  height: 41px;
+  background: #FF2020;
+  border-radius: 3px;
+  border-style: none;
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.col-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  width: 186px;
+  height: 242px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  filter: grayscale(100);
+}
+
+.product-card:hover {
+  animation-name: cardhover;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cardhover {
+  100% {
+    transform: scale(1.09);
+    filter:none;
+  }
 }
