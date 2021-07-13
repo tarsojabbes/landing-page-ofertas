@@ -3,11 +3,11 @@ import React from 'react'
 export default function SegundaPagina() {
     return (
         <>
-            <div className="container main">
+            <div className="container main fit-content">
                 <div className="row text-align-right">
                     <div className="col order-lg-2 text-align-right d-flex-col">
                         <h1>CONFIRA ALGUMAS <br />DAS NOSSAS ÚLTIMAS PROMOÇÕES</h1>
-                        <p className="text-color-white" style={{ width: "100%" }}>ESSAS E OUTRAS SOMENTE PARA OS NOSSOS ASSINANTES</p>
+                        <p className="text-color-white p-main">ESSAS E OUTRAS SOMENTE PARA OS NOSSOS ASSINANTES DO NEWSLETTER</p>
                     </div>
                     <div className="col order-lg-1 d-flex-col">
                         <div className="container">
@@ -19,7 +19,7 @@ export default function SegundaPagina() {
                                                 alt="iPhone XR" />
                                         </div>
                                         <p className="product-name">iPhone XR 64GB</p>
-                                        <p><s>R$4.999.00</s></p>
+                                        <p className="product-prize"><s>R$4.999.00</s></p>
                                         <h4>R$4.499.99</h4>
                                     </div>
                                 </div>
@@ -27,7 +27,7 @@ export default function SegundaPagina() {
                                     <div className="product-card">
                                         <img src="https://cdn.awsli.com.br/600x450/991/991246/produto/36649270/0fda51e913.jpg" alt="iPhone XS Max" />
                                         <p className="product-name">iPhone XS Max 64GB</p>
-                                        <p><s>R$3.899.99</s></p>
+                                        <p className="product-prize"><s>R$3.899.99</s></p>
                                         <h4>R$3.599,99</h4>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@ export default function SegundaPagina() {
                                     <div className="product-card">
                                         <img id="mac" src="https://images-na.ssl-images-amazon.com/images/I/31sq02%2BO6HL._AC_.jpg" alt="Macbook Pro" />
                                         <p className="product-name">Macbook Pro 13" 256GB</p>
-                                        <p><s>R$9.199.99</s></p>
+                                        <p className="product-prize"><s>R$9.199.99</s></p>
                                         <h4>R$8.899.99</h4>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ export default function SegundaPagina() {
                                     <div className="product-card">
                                         <img src="https://images-na.ssl-images-amazon.com/images/I/51IYu924UoL._AC_SL1000_.jpg" alt="iPad Pro" />
                                         <p className="product-name">iPad Pro 10.9" 256GB</p>
-                                        <p><s>R$6.099.00</s></p>
+                                        <p className="product-prize"><s>R$6.099.00</s></p>
                                         <h4>R$5.899.99</h4>
                                     </div>
                                 </div>

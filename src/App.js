@@ -9,7 +9,7 @@ export default function App() {
         <div className="row">
           <div className="col d-flex-col">
             <h1>QUER UM NEWSLETTER CHEIO DE OFERTAS?</h1>
-            <p>🔥 ASSINE O NOSSO NEWSLETTER PARA RECEBER EM PRIMEIRA MÃO NO SEU EMAIL AS MELHORES PROMOÇÕES DA NOSSA LOJA</p>
+            <p className="p-main">🔥 ASSINE O NOSSO NEWSLETTER PARA RECEBER EM PRIMEIRA MÃO NO SEU EMAIL AS MELHORES PROMOÇÕES DA NOSSA LOJA</p>
           </div>
           <div className="col d-flex-col">
             <div className="card">
@@ -26,7 +26,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor: "#2F2F2F" }}>
+      <div style={{ backgroundColor: "#2F2F2F" }} id="segpag">
         <SegundaPagina />
       </div>
       <Footer />
