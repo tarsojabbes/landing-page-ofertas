@@ -209,7 +209,8 @@ h4 {
 }
 
 .footer-img {
-  height: 30px;
+  height: 45px;
+  padding: 10px 0px
 }
 .frase {
   font-family: Montserrat;
@@ -277,7 +278,8 @@ h4 {
   }
 
   .footer-img {
-    height: 25px;
+    height: 30px;
+    padding: 5px 0px
   }
 
   .fit-content {
