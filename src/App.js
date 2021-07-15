@@ -7,10 +7,10 @@ export default function App() {
 
   return (
     <>
-      <div>
+      <div id="padding-horizontal">
         <PrimeiraPagina />
       </div>
-      <div style={{ backgroundColor: "#2F2F2F" }} id="segpag">
+      <div style={{ backgroundColor: "#2F2F2F" }} id="padding-horizontal">
         <SegundaPagina />
       </div>
       <Footer />

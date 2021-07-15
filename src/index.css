@@ -146,9 +146,8 @@ button:hover {
 
 .grid {
   display: grid;
-  grid-template-columns: 200px 200px;
-  grid-template-rows: 300px 300px;
-  grid-gap: 20px;
+  grid-template-columns: 180px 180px;
+  grid-template-rows: 280px 280px;
 }
 
 .product-card:hover {
@@ -261,10 +260,18 @@ h4 {
     display: block;
   }
 
-  .product-card {
-    width: 100px;
-    height: 150px;
+  .grid {
+    display: grid;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 30px
   }
+
+  .center {
+    justify-content: center;
+    align-content: center;
+  }
+
 
   img {
     height: 50px;
@@ -294,8 +301,8 @@ h4 {
     height: fit-content;
   }
 
-  #segpag {
-    padding: 60px 0px;
+  #padding-horizontal {
+    padding: 45px 0px;
 
   }
 
@@ -312,10 +319,6 @@ h4 {
     font-size: 14px;
   }
 
-  .product-card {
-    height: fit-content;
-    padding: 15px;
-  }
 
   label {
     font-size: 12px;
