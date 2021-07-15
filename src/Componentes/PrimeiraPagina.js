@@ -10,7 +10,7 @@ export default function PrimeiraPagina() {
                 <div className="row">
                     <div className="col d-flex-col">
                         <h1>QUER UM NEWSLETTER CHEIO DE OFERTAS?</h1>
-                        <p className="p-main">🔥 ASSINE O NOSSO NEWSLETTER PARA RECEBER EM PRIMEIRA MÃO NO SEU EMAIL AS MELHORES PROMOÇÕES DA NOSSA LOJA</p>
+                        <p className="p-main text-color-white">🔥 ASSINE O NOSSO NEWSLETTER PARA RECEBER EM PRIMEIRA MÃO NO SEU EMAIL AS MELHORES PROMOÇÕES DA NOSSA LOJA</p>
                     </div>
                     <Formulario />
 
