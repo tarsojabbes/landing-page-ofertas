@@ -265,6 +265,11 @@ h4 {
     height: fit-content;
     text-align: justify;
   }
+
+  .card {
+  box-shadow:  19px 19px 38px #eb2b85,
+              -19px -19px 38px #ff7b00;
+  }
   .frase {
     display: none;
   }
