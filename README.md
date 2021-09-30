@@ -10,10 +10,10 @@ Você pode acessar o resultado final por meio deste link: [Landing Page Ofertas]
 #### Versão para Desktop ####
 <p align="center" padding="30">
 <a href="https://ofertas.netlify.app/">
-<img src="https://media-exp1.licdn.com/dms/image/C4E22AQEY0x7DOBU-nQ/feedshare-shrink_2048_1536/0/1626367496603?e=1631750400&v=beta&t=SBoh4gAW2_ryP4SSbHZJGGrYcB8POnJVno3lug_stEE">
+<img src="https://serving.photos.photobox.com/79023331996fe96ac902fa91bae78061a479f0933e8701790369f89312fe2b36dfc530b1.jpg">
 </a>
 <a href="https://ofertas.netlify.app/">
-<img src="https://media-exp1.licdn.com/dms/image/C4E22AQEMdtNzC10yqg/feedshare-shrink_2048_1536/0/1626367496738?e=1631750400&v=beta&t=xSEmLdL-6iq4TqF4ZypzNVcU_kpwVBwPbq1zBZ7X-V8">
+<img src="https://serving.photos.photobox.com/9444500538f5d665c99008e076fe622ce8c2340a4da5a25c65f94e778ce9583b4c3db99c.jpg">
 </a>
 </p>
 
@@ -21,9 +21,9 @@ Você pode acessar o resultado final por meio deste link: [Landing Page Ofertas]
 
 <p align="center" padding="30">
 <a href="https://ofertas.netlify.app/">
-<img src="https://media-exp1.licdn.com/dms/image/C4E22AQGR4RF9WucqAw/feedshare-shrink_1280/0/1626367497064?e=1631750400&v=beta&t=5W35XWdb0b-3QQAp3_O0FTazwgnXJiUKTywXg133IWo" width="auto" height="600">
+<img src="https://serving.photos.photobox.com/315393965d739595944ffa9cf53afbf73dd2890889bb1344c72b4888169109fc52d03524.jpg" width="auto" height="600">
 </a>
 <a href="https://ofertas.netlify.app/">
-<img src="https://media-exp1.licdn.com/dms/image/C4E22AQHSIifKvEvX0Q/feedshare-shrink_1280/0/1626367496975?e=1631750400&v=beta&t=0_RBGukAF6YmUj8rv04kDM2NivKo1QswbFaInzQNiq0" width="auto" height="600">
+<img src="https://serving.photos.photobox.com/723573828ebb4e4614d8aeec71b1089f78c18324ffa8128db0ca4678e01d92868ec1bfb1.jpg" width="auto" height="600">
 </a>
 </p>
